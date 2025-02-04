@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+
+:root {
+  --background-color: #e7e6e6;
+
+  --h1-color: #585858;
+  --h2-color: #585858;
+  --h3-color: #585858;
+
+  --p-color: #333;
+  --p-about-color: #333;
+  --p-about-strong-color: #333;
+
+  --menu-link-color: rgb(163, 164, 167);
+  --menu-link-active-color: #202122;
+
+  --card-h2-color: rgb(78, 80, 81);
+
+  --card-background: linear-gradient(
+    15deg,
+    rgb(218, 220, 219),
+    rgb(210, 230, 230)
+  );
+  --card-box-shadow: inset 0 0 15px rgba(64, 81, 80, 0.2);
+
+  --tech-bg-color: #1e3e5a;
+  --tech-info-color: #329cfa;
+
+  --btn-bg-color: #329cfa;
+  --btn--color: #ffffff;
+
+  --input-bg-color: #c2c2c2;
+}
+
+[data-theme="dark"] {
+  --background-color: #1a1a1a;
+
+  --h1-color: #ede4e4;
+  --h2-color: #cac1c1;
+  --h3-color: #cac1c1;
+
+  --p-color: #e2dada;
+  --p-about-color: #b9acac;
+  --p-about-strong-color: #fcf7f7;
+
+  --menu-link-color: rgb(75, 85, 99);
+  --menu-link-active-color: #ffffff;
+
+  --card-h2-color: aliceblue;
+
+  --card-background: linear-gradient(15deg, rgb(41, 41, 41), rgb(35, 43, 43));
+  --card-box-shadow: inset 0 0 15px rgba(127, 123, 123, 0.2);
+
+  --tech-bg-color: rgb(75, 85, 99);
+  --tech-info-color: #d5d9dc;
+
+  --btn-bg-color: #329cfa;
+  --btn--color: #ffffff;
+
+  --input-bg-color: #c2c2c2;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #474646;
+}
+
+nav {
+  position: fixed;
+  top: 10px;
+  right: 20px;
+  z-index: 10;
+}
+
+@media screen and (max-width: 600px) {
+  nav {
+    right: 10px;
+  }
+}
+
+header {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 40vw;
+  height: 100vh;
+  overflow: scroll;
+}
+
+@media screen and (max-width: 600px) {
+  header {
+    position: relative;
+    width: 100vw;
+    height: auto;
+    overflow: scroll;
+  }
+}
+
+main {
+  width: 60vw;
+  margin-left: 40vw;
+  min-height: 100vh;
+}
+
+@media screen and (max-width: 600px) {
+  main {
+    width: 100vw;
+    margin-left: 0vw;
+    min-height: 100vh;
+  }
+}
+
+h1 {
+  color: var(--h1-color);
+  font-size: 1.6rem;
+}
+
+h2 {
+  color: var(--h2-color);
+  font-size: 1.4rem;
+}
+
+h3 {
+  color: var(--h3-color);
+  font-size: 1.2rem;
+}
+
+p {
+  color: var(--p-color);
+  font-size: 1rem;
+}
+
+section {
+  min-height: 60vh;
+}
+
+button {
+  background-color: var(--btn-bg-color);
+  color: var(--btn--color);
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: rgb(18, 57, 80);
+  }
+}
+
+input {
+  padding: 10px 14px;
+  background-color: var(--input-bg-color);
+  border: none;
+  border-radius: 12px;
+  color: var(--primary-text-color);
+}
+
+textarea {
+  padding: 10px 14px;
+  background-color: var(--input-bg-color);
+  border: none;
+  border-radius: 12px;
+  color: var(--primary-text-color);
+}

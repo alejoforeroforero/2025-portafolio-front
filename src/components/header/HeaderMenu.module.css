@@ -1,0 +1,54 @@
+.navContainer {
+  padding: 4vh 6vw;
+}
+
+.menuList {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+
+  li {
+    list-style: none;
+  }
+}
+
+.menuItem {
+  position: relative;
+}
+
+.menuLine {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 2rem;
+  height: 1px;
+  transform: translateY(-50%);
+  transition: 1.5s;
+  background-color: var(--menu-link-color);
+}
+
+.menuLine.active,
+.menuItem:hover .menuLine {
+  background-color: var(--menu-link-active-color);
+  width: 3rem;
+}
+
+.menuLink {
+  padding-left: 3rem;
+  font-size: 0.8rem;
+  transition: color 0.3s ease;
+  transition: 1.5s;
+  color: var(--menu-link-color);
+  text-decoration: none;
+  display: block;
+}
+
+.menuLink:focus {
+  outline: none;
+}
+
+.menuLink.active,
+.menuLink:hover {
+  padding-left: 4rem;
+  color: var(--menu-link-active-color);
+}

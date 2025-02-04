@@ -1,0 +1,16 @@
+.sun {
+  color: yellow; /* Icon color */
+  background-color: orange; /* Background color */
+  border-radius: 50%; /* Optional: Makes the background circular */
+  padding: 6px; /* Optional: Adds space around the icon */
+  cursor: pointer;
+}
+
+.moon {
+  color: rgb(198, 196, 196); /* Icon color */
+  background-color: #4e4d4d; /* Background color */
+  border-radius: 50%; /* Makes the background circular */
+  padding: 6px; /* Adds space around the icon */
+  transition: all 0.3s ease; /* Smooth transition for hover effects */
+  cursor: pointer;
+}

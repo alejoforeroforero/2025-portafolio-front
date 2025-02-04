@@ -1,0 +1,18 @@
+.container {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.social-icon {
+  transition: color 0.3s ease;
+  color: rgb(151, 149, 149);
+  size: 80px;
+  font-size: 25px;
+  transition: 2s;
+}
+
+.social-icon:hover {
+  color: #ff6347; /* Change to your desired hover color */
+}

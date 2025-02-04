@@ -1,0 +1,85 @@
+.card {
+  padding: 1rem;
+  display: flex;
+  cursor: pointer;
+  margin-bottom: 2rem;
+  border-radius: 12px;
+  transition: 4s;
+
+  &:hover {
+    background: var(--card-background);
+    box-shadow: var(--card-box-shadow);
+    transition: 2s;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .card {
+    padding: 1rem;
+    display: block;
+    border: 1px solid rgba(69, 68, 68, 0.2);
+  }
+}
+
+.left-card {
+  width: 24%;
+  padding: 2px 0;
+
+  p {
+    color: rgb(75, 85, 99);
+    font-size: 0.8rem;
+  }
+
+  img {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .left-card {
+    width: 100%;
+    padding: 2px 0;
+
+    p {
+      color: rgb(75, 85, 99);
+      font-size: 0.8rem;
+    }
+
+    img {
+      width: 100%;
+    }
+  }
+}
+
+.info {
+  width: 70%;
+
+  h2 {
+    color: var(--card-h2-color);
+    font-size: 1rem;
+    margin-bottom: 12px;
+  }
+
+  p {
+    font-size: 0.9rem;
+    color: var(--p-about-color);
+    margin-bottom: 18px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .info {
+    width: 100%;
+  }
+}
+
+.tech {
+  background-color: var(--tech-bg-color);
+  color: var(--tech-info-color);
+  font-size: 0.8rem;
+  border-radius: 8px;
+  display: inline-block;
+  padding: 4px 8px;
+  margin-right: 14px;
+  margin-bottom: 12px;
+}

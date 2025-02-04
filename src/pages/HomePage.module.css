@@ -1,0 +1,25 @@
+.about {
+  padding: 5rem 4rem 2rem;
+}
+
+.experience {
+  padding: 2rem 3rem;
+}
+
+.projects {
+  padding: 2rem 3rem;
+}
+
+@media screen and (max-width: 600px) {
+  .about {
+    padding: 2rem;
+  }
+
+  .experience {
+    padding: 2rem;
+  }
+
+  .projects {
+    padding: 2rem;
+  }
+}

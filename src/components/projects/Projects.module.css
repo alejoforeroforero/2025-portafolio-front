@@ -1,0 +1,22 @@
+.container {
+  width: 80%;
+
+  a {
+    text-decoration: none;
+  }
+
+  h1 {
+    margin-bottom: 20px;
+    text-align: center;
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    width: 100%;
+    h1 {
+      display: block;
+    }
+  }
+}

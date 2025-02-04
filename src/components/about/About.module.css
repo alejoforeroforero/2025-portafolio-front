@@ -1,0 +1,36 @@
+.container {
+  h1 {
+    margin-bottom: 20px;
+    text-align: center;
+    display: none;
+  }
+
+  p {
+    margin-bottom: 20px;
+    line-height: 1.5rem;
+    width: 80%;
+    color: var(--p-about-color);
+  }
+
+  strong {
+    color: var(--p-about-strong-color);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    h1 {
+      display: block;
+    }
+
+    p {
+      margin-bottom: 20px;
+      width: 100%;
+      line-height: 1.3rem;
+    }
+
+    span{
+      font-size: 0.9rem;
+    }
+  }
+}

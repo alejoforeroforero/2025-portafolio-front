@@ -1,0 +1,30 @@
+.header-profile-container {
+  height: 30vh;
+  min-height: 200px;
+}
+
+@media screen and (max-width: 600px) {
+  .header-profile-container {
+    height: auto;
+  }
+}
+
+.header-menu-container {
+  height: 45vh;
+  min-height: 200px;
+}
+
+@media screen and (max-width: 600px) {
+  .header-menu-container {
+    display: none;
+  }
+}
+
+.header-links-container {
+}
+
+@media screen and (max-width: 600px) {
+  .header-links-container{
+    margin: 20px 0 50px;
+  }
+}
