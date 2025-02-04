@@ -5,7 +5,7 @@ export const getExperience = createAsyncThunk(
   "getExperience",
   async (_, { signal }) => { 
     try {
-      const response = await axiosInstance.get("/experience", {
+      const response = await axiosInstance.get("/experience/", {
         signal, 
       });
       return response.data;

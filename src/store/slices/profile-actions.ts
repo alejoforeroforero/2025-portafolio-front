@@ -5,7 +5,7 @@ export const getProfile = createAsyncThunk(
   "getProfile",
   async (_, { signal }) => { 
     try {
-      const response = await axiosInstance.get("/profile", {
+      const response = await axiosInstance.get("/profile/", {
         signal, 
       });
       return response.data;
