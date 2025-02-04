@@ -1,0 +1,11 @@
+.container {
+  padding: 4rem;
+
+  a {
+    text-decoration: none;
+  }
+}
+
+.back {
+  margin-bottom: 40px;
+}

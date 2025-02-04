@@ -14,6 +14,7 @@ export type ExperienceType = BaseCard & {
 export type ProjectType = BaseCard & {
   type: "project";
   imageUrl: string;
+  newWindow:boolean;
 };
 
 export type InfoCard = ExperienceType | ProjectType;

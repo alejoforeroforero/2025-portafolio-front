@@ -1,6 +1,7 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import App from "@/App";
 import HomePage from "@/pages/HomePage";
+import NetArt from "./components/netart/NetArt";
 
 const router = createBrowserRouter([
   {
@@ -15,6 +16,10 @@ const router = createBrowserRouter([
       {
         path: ":section",
         element: <HomePage />,
+      },
+      {
+        path: "/netart",
+        element: <NetArt />,
       },
     ],
   },

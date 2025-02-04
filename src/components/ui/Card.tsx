@@ -9,7 +9,7 @@ const Card = ({ info }: CardProps) => {
   return (
     <a
       href={info.link || "https://alejoforero.com/"}
-      target="_blank"
+      target= {info.type == "project" && !info.newWindow ? "" : "_blank"}
       rel="noopener noreferrer"
     >
       <div className={styles["card"]}>
@@ -20,8 +20,10 @@ const Card = ({ info }: CardProps) => {
         <div className={styles["info"]}>
           <h2>{info.title}</h2>
           <p>{info.summary}</p>
-          {info.tech.split(",").map((word) => (
-            <span className={styles["tech"]}>{word}</span>
+          {info.tech.split(",").map((word, index) => (
+            <span key={index} className={styles["tech"]}>
+              {word}
+            </span>
           ))}
         </div>
       </div>
