@@ -2,8 +2,6 @@ services:
   vite-app:
     build: .
     ports:
-      - "9091:80"
+      - "8095:80"
     volumes:
-      - ./dist:/usr/share/nginx/html/2025-portafolio-front
-    environment:
-      VITE_BASE_URL_BACKEND: "https://portafolio.alejoforero.com/api"
+      - ./dist:/usr/share/nginx/html/2025-portafolio
