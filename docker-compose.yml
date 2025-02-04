@@ -4,4 +4,6 @@ services:
     ports:
       - "9091:80"
     volumes:
-      - ./dist:/usr/share/nginx/html/0-flashcardsbackend
+      - ./dist:/usr/share/nginx/html/2025-portafolio-front
+    environment:
+      VITE_BASE_URL_BACKEND: "https://portafolio.alejoforero.com/api"
