@@ -26,9 +26,9 @@ export type Status = {
 
 const initialProfile:Profile = {
     id:1, 
-    name:'AL',
-    position:'pos',
-    summary:'summary',
+    name:'Alejandro Forero',
+    position:'FullStack Developer',
+    summary:'Passionate about interactive digital experiences, blending technology, music, and electronic arts.',
     about_paragraphs:[]
 }
 

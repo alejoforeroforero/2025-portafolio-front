@@ -18,7 +18,7 @@ export const netArtData: ProjectType[] = [
     title: "Huida",
     imageUrl:
       "https://res.cloudinary.com/dlmutdhbp/image/upload/v1738641178/huida_ugafvp.png",
-    link: "https://alejoforero.com",
+    link: "https://huida.alejoforero.com/",
     newWindow:true,
     summary:"Sound an image experimentation",
     tech: "JavaScript, P5Js",
@@ -29,7 +29,7 @@ export const netArtData: ProjectType[] = [
     title: "Sequencer",
     imageUrl:
       "https://res.cloudinary.com/dlmutdhbp/image/upload/v1738641178/secuenciador_nih5jt.png",
-    link: "https://alejoforero.com",
+    link: "https://secuenciador.alejoforero.com/",
     newWindow:true,
     summary:"Sound an image experimentation",
     tech: "JavaScript, P5Js",
@@ -40,7 +40,7 @@ export const netArtData: ProjectType[] = [
     title: "Mapa sonoro",
     imageUrl:
       "https://res.cloudinary.com/dlmutdhbp/image/upload/v1738641179/mapa-sonoro_fwfmcl.png",
-    link: "https://mapasonoro.alejoforero.com",
+    link: "https://mapasonoro.alejoforero.com/",
     newWindow:true,
     summary:"Sound an image experimentation",
     tech: "JavaScript, P5Js",
