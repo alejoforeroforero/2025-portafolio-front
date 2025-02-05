@@ -18,7 +18,7 @@ const Card = ({ info }: CardProps) => {
           {info.type == "project" && <img src={info.imageUrl} />}
         </div>
         <div className={styles["info"]}>
-          <h2>{info.title}</h2>
+          <h2>{info.title} <span className={styles['arrow']}>↗</span></h2>
           <p>{info.summary}</p>
           {info.tech.split(",").map((word, index) => (
             <span key={index} className={styles["tech"]}>

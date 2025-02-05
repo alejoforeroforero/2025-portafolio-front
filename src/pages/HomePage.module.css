@@ -1,9 +1,11 @@
 .about {
   padding: 5rem 4rem 2rem;
+  border-bottom: 1px solid var(--divider-color);
 }
 
 .experience {
   padding: 2rem 3rem;
+  border-bottom: 1px solid var(--divider-color);
 }
 
 .projects {

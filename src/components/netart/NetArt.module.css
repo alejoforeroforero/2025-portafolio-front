@@ -6,6 +6,12 @@
   }
 }
 
+@media screen and (max-width: 600px) {
+  .container {
+    padding: 1rem;
+  }
+}
+
 .back {
   margin-bottom: 40px;
 }
